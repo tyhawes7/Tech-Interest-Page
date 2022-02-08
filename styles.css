@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+  }
+  
+  body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: hsl(133, 50%, 23%);
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header img {
+    height: 100px;
+  }
+  
+  main {
+  color: brown;
+  }
+  
+  section {
+    margin: 2rem 0;
+  }
+  
+  #bio {
+    display: flex;
+    /* background-color: orange; */
+  }
+  
+  #bio-choose {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: .5rem;
+  }
+  
+  #name-date {
+    display: flex;
+    justify-content: space-between;
+  align-items: baseline;
+ }
+  
+  #choose-list {
+    background-color: #545353;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  
+  ul {
+    padding: 10px 0px 0px 18px;
+  }
+  
+  #tech {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #tech img {
+    height: 10rem;
+  }
+  
+  figure {
+    text-align: center;
+    width: 12rem;
+  }
+  
+  figcaption {
+    background-color: rgba(0, 0, 0, .5);
+    position:relative;
+    top: -1.5rem;
+  }
+  
+  h2, h4 {
+    color: #C0FEFE;
+    margin-top: 0px;
+  }
+  
+  #interest div {
+    background-color: #545353;
+    padding: 1rem;
+    margin-top: .75rem;
+  }
+  
+  .interestText {
+    margin-top: 1rem;
+  }
+  
+  #copyright {
+    background-color: #857101;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+
+
